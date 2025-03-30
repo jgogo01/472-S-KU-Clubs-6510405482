@@ -96,7 +96,7 @@ test.describe("Club Page", () => {
 
     // Verify loading state is shown by checking if any skeleton is visible
     const skeletons = page.getByTestId("skeleton");
-    await expect(skeletons).toHaveCount(36); // Verify we have the expected number of skeletons
+    await expect(skeletons).toHaveCount(37); // Verify we have the expected number of skeletons
     await expect(skeletons.first()).toBeVisible();
 
     // Wait for content to load
